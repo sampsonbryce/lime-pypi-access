@@ -14,6 +14,7 @@ const repositories = [
     'limepkg-credit-info',
     'limepkg-dynamic-checklist',
     'limepkg-esign',
+    'limepkg-myfunkypackage',
     'limepkg-survey-integration',
     'mtech-addon-shared',
 ]
