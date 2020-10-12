@@ -1,0 +1,19 @@
+{
+  "name": "lime-pypi-access",
+  "version": "1.0.0",
+  "description": "Administers access to pypi",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lundalogik/lime-pypi-access.git"
+  },
+  "author": "Johan Andersson <johan@andersson.net> (http://johan.andersson.net)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lundalogik/lime-pypi-access/issues"
+  },
+  "homepage": "https://github.com/Lundalogik/lime-pypi-access#readme"
+}
