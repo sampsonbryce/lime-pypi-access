@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "updatesecret": "node ./src/index.mjs",
+    "updatesecret": "source .env && GITHUB_ACTION=1 SECRET_NAMES=PYPI_LIMECI_USERNAME,PYPI_LIMECI_PASSWORD node ./src/index.mjs",
     "dev": "source .env && GITHUB_ACTION=1 node ./src/index.mjs"
   },
   "repository": {
