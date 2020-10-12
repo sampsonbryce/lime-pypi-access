@@ -2,18 +2,27 @@
   "name": "lime-pypi-access",
   "version": "1.0.0",
   "description": "Administers access to pypi",
-  "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "updatesecret": "node ./src/index.mjs",
+    "dev": "source .env && GITHUB_ACTION=1 node ./src/index.mjs"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Lundalogik/lime-pypi-access.git"
   },
-  "author": "Johan Andersson <johan@andersson.net> (http://johan.andersson.net)",
+  "author": "Lime Technologies",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Lundalogik/lime-pypi-access/issues"
   },
-  "homepage": "https://github.com/Lundalogik/lime-pypi-access#readme"
+  "homepage": "https://github.com/Lundalogik/lime-pypi-access#readme",
+  "dependencies": {
+    "@octokit/action": "^3.1.1",
+    "esm": "^3.2.25"
+  },
+  "engines": {
+    "node": "14.13.1"
+  }
 }
